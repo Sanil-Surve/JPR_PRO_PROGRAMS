@@ -1,0 +1,1 @@
+import java.sql.*; class Test{ public static void main(String ar[])throws Exception { String url="jdbc:odbc:st"; Class.forName("sun.jdbc.odbc.JdbcOdbcDriver"); System.out.println("Drivers Loaded"); Connection c=DriverManager.getConnection(); } }  
